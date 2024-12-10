@@ -98,7 +98,7 @@ figure;
 subplot(4,1,1);
 plot(y);
 title('Audio sin corregir');
-xlabel('Instantes n');
+xlabel('Tiempo (t)');
 ylabel('Amplitud');
 
 yf1 = filtroDe1Rama(n,y);
